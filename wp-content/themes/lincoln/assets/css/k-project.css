@@ -1,0 +1,44 @@
+.k2t-project-heading h2{
+	font-size: 48px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.k2t-project-heading h2:before{
+	content: ":::";
+    color: #3F51B5;
+    margin-right: 25px;
+}
+.k2t-project-heading h2:after{
+	content: ":::";
+    color: #3F51B5;
+    margin-left: 25px;
+}
+.k2t-page-topnav ul.menu > li{
+	margin: 5px 12px;
+}
+.k2t-page-topnav ul.menu > li > a{
+    font-size: 18px;
+    line-height: 1.75;
+    padding: 0 7px;
+}
+.k2t-page-topnav ul.menu > li.active > a{
+	color: #303f9f;
+}
+.k2t-page-topnav ul.menu > li > a:before{
+	background: #3f51b5;
+}
+.project-meta span i{
+	margin-right: 8px;
+}
+.project-meta span a{
+	color: #959595;
+}
+.project-meta span a:hover{
+	color: #3f51b5;
+}
+
+@media (min-width: 768px) {
+	.k2t-page-topnav ul.menu > li:hover > a{
+		color: #303f9f;
+	}
+}

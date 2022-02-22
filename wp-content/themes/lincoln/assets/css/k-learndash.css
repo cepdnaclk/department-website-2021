@@ -1,0 +1,171 @@
+.learndash #learndash_course_content_title {
+	font-size: 30px;
+	margin-bottom: 10px!important;
+}
+.learndash .notcompleted, 
+#learndash_profile .notcompleted {
+    background: none !important;
+    line-height: 30px !important;
+    position: relative;
+}
+.learndash .notcompleted:after, 
+#learndash_profile .notcompleted:after {
+    content: '\f26b';
+    font-family: Material-Design-Iconic-Font;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    right: 4%;
+    top: 15px;
+    font-size: 20px;
+    color: #959595;
+}
+.learndash .notcompleted:before, 
+#learndash_profile .notcompleted:before,
+.learndash .completed:before, 
+#learndash_profile .completed:before {
+	content: '';
+	width: 1px;
+	height: 60%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	background: rgba(0,0,0,0.1);
+}
+.learndash .completed, #learndash_profile .completed {
+	background: none !important;
+	line-height: 30px !important;
+	position:relative;
+}
+.learndash .completed:after, #learndash_profile .completed:after {
+	content: '\f269';
+	font-family: Material-Design-Iconic-Font;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position:absolute;
+	right:4.25%;
+	top:15px;
+	font-size:20px;
+	color:#4caf50;
+}
+
+.learndash #learndash_lessons, 
+.learndash #learndash_quizzes, 
+.learndash #learndash_profile, 
+.learndash #learndash_lesson_topics_list > div {
+	border: 0;
+	margin-bottom: 30px;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-ms-border-radius: 0;
+	-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    -ms-box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+}
+.learndash #learndash_lessons #lesson_heading, 
+.learndash #learndash_profile .learndash_profile_heading, 
+.learndash #learndash_quizzes #quiz_heading, 
+.learndash #learndash_lesson_topics_list div > strong {
+	border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: #959595;
+    font-size: 18px;
+    color: #fff;
+    padding: 18px 20px;
+}
+.learndash #learndash_lessons > div > div, 
+.learndash #learndash_quizzes > div > div {
+	border: 0;
+}
+.learndash #learndash_lessons > div > div:nth-child(even), 
+.learndash #learndash_quizzes > div > div:nth-child(even) {
+	background: #f5f5f5;
+}
+.learndash #lessons_list > div > div,
+.learndash #course_list > div > div, 
+.learndash #quiz_list > div > div, 
+.learndash .single-sfwd-lessons #learndash_lesson_topics_list ul > li > span.sn, 
+.learndash .singular-sfwd-lessons #learndash_lesson_topics_list ul > li > span.sn {
+	border: 0;
+	font-size: 16px;
+	color: #959595;
+	font-weight: 300;
+}
+.learndash #lessons_list > div h4, 
+.learndash #course_list > div h4, 
+.learndash #quiz_list > div h4, 
+.learndash #learndash_lesson_topics_list ul > li > span.topic_item {
+	border: 0;
+}
+.learndash #learndash_lessons a, 
+.learndash #learndash_quizzes a, 
+.learndash .expand_collapse a, 
+.learndash .learndash_topic_dots a, 
+.learndash .learndash_topic_dots a > span, 
+.learndash #learndash_lesson_topics_list span a {
+	font-size: 16px;
+	color: #959595;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}
+
+.learndash .btn-join, 
+.learndash #btn-join, 
+.learndash a#quiz_continue_link {
+	display: block;
+	margin: 30px 0;
+	width: 100%;
+	font-size: 16px;
+	height: 60px;
+	font-weight: 300;
+	background: #3f51b5;
+	text-transform: uppercase;
+	border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -webkit-box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    -ms-box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+    -ms-transition: all .3s ease-in-out 0s;
+}
+.learndash .btn-join:hover, 
+.learndash #btn-join:hover, 
+.learndash a#quiz_continue_link:hover {
+	background: #303f9f;
+	z-index: 999;
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    -ms-box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,.1)
+}
+#sfwd-mark-complete {
+	margin-top: 30px;
+}
+
+.learndash .wpProQuiz_button, 
+.learndash .wpProQuiz_button:hover {
+	background: #3f51b5!important;
+	border-radius: 2px !important;
+	-moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border: 0!important;
+	font-weight: 300!important;
+    padding: 0 25px!important;
+    box-shadow: none!important;
+}

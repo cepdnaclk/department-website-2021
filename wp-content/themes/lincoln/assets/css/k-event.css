@@ -1,0 +1,711 @@
+/*--------------------------------------------------------------
+	Event layout
+--------------------------------------------------------------*/
+.single-post-k-event .left-sidebar .event-entry-meta {
+	float: right;
+}
+
+
+
+/*--------------------------------------------------------------
+	Single Event
+--------------------------------------------------------------*/
+
+.single-post-k-event .post-k-event .h {
+	text-transform: uppercase;
+	font-size: 140%;
+}
+.single-post-k-event .post-k-event .h i {
+	margin-right: 10px;
+}
+
+	/* Speakers */
+.single-post-k-event .entry-speakers {
+	margin-bottom: 20px;
+}
+.single-post-k-event .entry-speakers .col-6 {
+	margin-bottom: 20px;
+}
+.single-post-k-event .entry-speakers .speaker-avatar {
+	float: left;
+	width: 55px;
+	height: 55px;
+	margin-right: 20px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	overflow: hidden;
+}
+.single-post-k-event .entry-speakers .name {
+	color: #636363;
+	font-size: 115%;
+	font-weight: 500;
+	margin-top: 3px;
+	margin-bottom: -4px;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-moz-transition:    all .3s ease-in-out 0s;
+	transition:         all .3s ease-in-out 0s;
+}
+.single-post-k-event .entry-speakers .col-6:hover .name {
+	color: #303f9f;
+}
+.single-post-k-event .entry-speakers .role {
+	color: #636363;
+	font-size: 115%;
+	font-style: italic;
+}
+
+.event-entry-meta .entry-meta-inner {
+	padding: 20px 20px 30px;
+	background: #fff;
+	color: #252525;
+}
+.event-entry-meta .event-thumbnail img{
+	width: 100%;
+}
+.event-entry-meta h4 {
+	font-size: 100%;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.event-entry-meta .product-price {
+	margin-bottom: 10px;
+}
+
+.event-entry-meta .product-price .price {
+	display: block;
+	color: #252525;
+	font-weight: 500;
+}
+.event-ticket {
+	margin-bottom: 40px;
+}
+.event-ticket .ticket-input {
+	position: relative;
+	width: 90px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.event-ticket .ticket-input input {
+	margin-bottom: 0;
+}
+.event-ticket .ticket-input i,
+.event-ticket .ticket-input i:before {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+}
+.event-ticket .ticket-input input {
+	width: 100%;
+	border-color: #ebebeb;
+	font-size: 24px;
+	font-weight: 300;
+	color: #252525;
+	outline: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+}
+.event-ticket .ticket-input .button {
+	position: absolute;
+	right: 0;
+	height: 50%;
+	font-size: 24px;
+	width: 30px;
+	text-align: center;
+	color: #ccc;
+	cursor: pointer;
+	display: block;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+}
+.event-ticket .ticket-input .button:hover {
+	color: #252525;
+}
+.event-ticket .ticket-input .button.inc {
+	top: 0;
+}
+.event-ticket .ticket-input .button.dec {
+	bottom: 0;
+}
+
+.event-entry-meta .k2t-element-hover {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	overflow: hidden;
+}
+.single-post-k-event .event-entry-meta .event-link {
+	margin-bottom: 0;
+}
+/* Time and Address */
+.single-post-k-event .event-time,
+.single-post-k-event .event-address {
+	margin-bottom: 37px;
+}
+.single-post-k-event .start-event,
+.single-post-k-event .end-event,
+.single-post-k-event .event-address div {
+	font-size: 105%;
+	color: #636363;
+}
+.single-post-k-event .start-event .entry-date,
+.single-post-k-event .end-event .entry-date {
+	font-weight: 400;
+}
+
+	/* Description */
+.single-post-k-event .event-description {
+	margin-top: 32px;
+}
+
+.single-post-k-event .event-description .content{
+	font-size: 115%;
+	line-height: 1.9;
+	color: #636363;
+}
+.single-post-k-event .calendar-export {
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+.single-post-k-event .calendar-export a {
+	display: inline-block;
+	width: 47%;
+	float: right;
+	font-size: 115%;
+	padding: 8px 10px;
+	color: #959595;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	background: #fff;
+	text-align: center;
+}
+.single-post-k-event .calendar-export a i {
+	margin-left: 10px;
+}
+.single-post-k-event .calendar-export a:first-child {
+	float: left;
+}
+.single-post-k-event .k2t-social-share {
+	margin-bottom: 50px;
+}
+.single-post-k-event .social li {
+	margin: 0 30px 10px 0;
+}
+.single-post-k-event .social li a {
+	line-height: 22px;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    color: #fff;
+    display: block;
+    font-size: 85%;
+}
+.single-post-k-event .event-link {
+	display: block;
+	text-align: center;
+	padding: 18px 15px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 115%;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	background: #3f51b5;
+	color: #fff;
+	margin-bottom: 80px;
+}
+.single-post-k-event .event-link:hover{
+	background: #303f9f;
+}
+.k2t-related-event .related-title {
+	padding: 20px;
+	font-weight: 500;
+	font-size: 18px;
+	background: #ebebeb;
+}
+.related-event-inner{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.k2t-related-event .related-event {
+	padding: 20px;
+	width: 50%;
+	float: left;
+}
+.k2t-related-event .related-thumb {
+	max-width: 80px;
+	float: left;
+}
+.k2t-related-event .related-text {
+	margin-left: 100px;
+}
+.k2t-related-event .related-text h5 {
+	font-size: 100%;
+	font-weight: 500;
+	margin: 0;
+}
+.k2t-related-event .related-text .related-meta {
+	font-size: 85%;
+	font-style: italic;
+	font-weight: 400;
+}
+.k2t-related-event .related-text .related-meta i {
+	font-style: normal;
+	margin-right: 10px;
+}
+
+/*--------------------------------------------------------------
+	Event List
+--------------------------------------------------------------*/
+	/* Calendar style 1 */
+.k2t-calendar-event {
+	border: 3px solid #e6e6e6;
+	padding: 20px;
+}
+#calendar-box .header-content {
+	background: none;
+	margin-bottom: 35px;
+}
+#calendar-box h3 {
+	font-size: 140%;
+	position: relative;
+}
+#calendar-box h3:after {
+    content: "";
+    float: left;
+    margin-left: 10%;
+    margin-top: 15px;
+    width: 80%;
+}
+#calendar-box h3,
+#calendar-box button[data-calendar-nav="prev"],
+#calendar-box button[data-calendar-nav="next"] {
+	color: #252525;
+	font-size: 150%;
+}
+#calendar-box button[data-calendar-nav="prev"] {
+	margin-right: 30px;
+}
+#calendar-box button[data-calendar-nav="next"] {
+	margin-left: 30px;
+}
+#stm-calendar-id .cal-row-head .cal-cell1 {
+	background: none;
+	color: #959595;
+    font-size: 90%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: none;
+}
+.pull-left {
+	float: none;
+}
+.cal-year-box .row-fluid, 
+.cal-month-box .cal-row-fluid {
+	border-bottom: 0;
+}
+.cal-year-box [class*="span"], 
+.cal-month-box [class*="cal-cell"] {
+	border: 0;
+	background: transparent;
+}
+.cal-year-box [class*="span"] > div,
+.cal-month-box [class*="cal-cell"] > div {
+	margin: 5px;
+	min-height: 150px;
+	display: block;
+}
+.cal-year-box [class*="span"] > div:not(.cal-day-outmonth), 
+.cal-month-box [class*="cal-cell"] > div:not(.cal-day-outmonth) {
+	background-color: #fff;
+	-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.2); 
+	-moz-box-shadow: 0 3px 5px rgba(0,0,0,.2);
+	-ms-box-shadow: 0 3px 5px rgba(0,0,0,.2); 
+	box-shadow: 0 3px 5px rgba(0,0,0,.2); 
+	-webkit-transition: all .3s ease-in-out 0s;
+	-moz-transition:    all .3s ease-in-out 0s;
+	transition:         all .3s ease-in-out 0s;
+}
+.cal-year-box [class*="span"] > div:not(.cal-day-outmonth):hover,
+.cal-month-box [class*="cal-cell"] > div:not(.cal-day-outmonth):hover {
+	z-index: 9999;
+	-webkit-box-shadow: 0 15px 30px rgba(0,0,0,.1); /* drop shadow */
+	-moz-box-shadow: 0 15px 30px rgba(0,0,0,.1); /* drop shadow */
+	-ms-box-shadow: 0 15px 30px rgba(0,0,0,.1); /* drop shadow */
+	box-shadow: 0 15px 30px rgba(0,0,0,.1); /* drop shadow */
+}
+.cal-year-box [class*="span"] > div.cal-day-weekend,
+.cal-month-box [class*="cal-cell"] > div.cal-day-weekend,
+.cal-year-box [class*="span"] > div.cal-day-weekend:hover,
+.cal-month-box [class*="cal-cell"] > div.cal-day-weekend:hover {
+	background: #ebebeb;
+	-webkit-box-shadow: none; 
+	-moz-box-shadow: none;
+	-ms-box-shadow: none; 
+	box-shadow: none; 
+}
+.cal-year-box [class*="span"] > div.cal-day-outmonth,
+.cal-month-box [class*="cal-cell"] > div.cal-day-outmonth {
+	background: none;
+	border: 1px dashed #e0e0e0;
+}
+.cal-year-box [class*="span"] > div > .pull-left,
+.cal-month-box [class*="cal-cell"] > div > .pull-left {
+	color: #252525;
+    display: inline-block;
+    font-size: 160%;
+    margin: 16px 20px;
+}
+.cal-year-box [class*="span"] > div.cal-day-outmonth .pull-left,
+.cal-month-box [class*="cal-cell"] > div.cal-day-outmonth .pull-left {
+	color: #cccccc;
+}
+.cal-cell > div {
+	position: relative;
+}
+.cal-cell > div .events-list {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	width: 100%;
+}
+.cal-cell > div .events-list .event-item {
+	background: #3f51b5;
+	border-radius: 100%;
+    float: left;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+.cal-cell > div .k2t-tooltip {
+	background: #ebebeb none repeat scroll 0 0;
+    border-left: 3px solid #ffc107;
+    left: 10px;
+    line-height: 28px;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 10px;
+    opacity: 0;
+    visibility: hidden;
+    color: #252525;
+    white-space: nowrap;
+    border-right: 3px solid #ffc107;
+    z-index: 9999;
+    -webkit-transition: all .5s ease-in-out 0s;
+	-moz-transition:    all .5s ease-in-out 0s;
+	transition:         all .5s ease-in-out 0s;
+}
+/*.cal-cell:nth-child(5) > div .k2t-tooltip
+	left: auto;
+	right: 10px;
+	border-left: 0;
+	border-right: 3px solid #ffc107;
+}*/
+.cal-cell > div .k2t-tooltip > span {
+	font-weight: 400;
+}
+.cal-cell > div .k2t-tooltip span, .cal-cell > div .k2t-tooltip > a {
+	display: block;
+	-webkit-transition: all .5s ease-in-out 0s;
+	-moz-transition:    all .5s ease-in-out 0s;
+	transition:         all .5s ease-in-out 0s;
+}
+.cal-cell > div .k2t-tooltip > a:hover {
+	color: #252525;
+	text-decoration: underline;
+}
+.cal-cell > div:hover .k2t-tooltip {
+	opacity: 1;
+	visibility: visible;
+}
+
+	/* Calendar style 2 */
+.k2t-calendar-event.style-2 {
+	background: #fff;
+	border: 1px solid #ebebeb;
+}
+.k2t-calendar-event.style-2 .cal-year-box [class*="span"] > div.has-background .pull-left,
+.k2t-calendar-event.style-2 .cal-month-box [class*="cal-cell"] > div.has-background .pull-left {
+	color: #ffffff;
+}
+.k2t-calendar-event.style-2 .cal-cell > div .events-list .event-item {
+	background: #fff;
+	position: relative;
+}
+.k2t-calendar-event.style-2 .cal-cell > div .k2t-tooltip {
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	border-left: 0;
+	padding: 0 15px;
+	left: 8px;
+	bottom: 11px;
+}
+.k2t-calendar-event.style-2 .cal-cell:nth-child(5) > div .k2t-tooltip,
+.k2t-calendar-event.style-2 .cal-cell:nth-child(6) > div .k2t-tooltip,
+.k2t-calendar-event.style-2 .cal-cell:nth-child(7) > div .k2t-tooltip {
+	left: auto;
+	right: 10px;
+}
+.k2t-calendar-event.style-2 .cal-cell > div .k2t-tooltip a {
+	color: #fff;
+}
+	
+/* Event Classic Style */
+.event-listing-classic .event-classic-item > a {
+	display: block;
+
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+.event-listing-classic .event-classic-item .wrap-left {
+	max-width: calc( 100% - 300px );
+	float: right;
+	width: 100%;
+}
+@media (max-width: 799px) {
+	.event-listing-classic .event-classic-item {
+	}
+	.event-listing-classic .event-classic-item .wrap-left {
+		margin: 0;
+		max-width: 100%;
+		padding: 0 15px;
+		max-width: 100%;
+	}
+}
+
+.event-classic-item {
+	position: relative;
+}
+
+@media (min-width: 800px) {
+	.event-listing-classic.show-excerpt .left-bg {
+		background-size: cover;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 270px;
+		height: 100%;
+		z-index: 10;
+	}
+}
+
+.event-listing-classic.show-excerpt h3.title,
+.event-listing-classic.show-teacher h3.title {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.event-listing-classic.show-excerpt .event-meta,
+.event-listing-classic.show-teacher .event-meta {
+	margin-bottom: 15px;
+}
+.event-listing-classic.show-teacher .entry-speakers > h3{
+	display: none;
+}
+.event-listing-classic.show-teacher .entry-speakers .k2t-row > * {
+	float: left; 
+	position: relative;
+	width: auto !important;
+}
+.event-listing-classic.show-teacher .entry-speakers {
+	float: left;
+}
+.event-listing-classic.show-teacher .entry-speakers .k2t-row .speaker-avatar {
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 40px;
+}
+
+.event-listing-classic.show-teacher .entry-speakers .k2t-row .speaker-avatar:hover ~ .name,
+.event-listing-classic.show-teacher .entry-speakers .k2t-row .name:hover {
+	opacity: 1;
+	z-index: 10;
+	-webkit-transform: translate(-50%, -100%);
+	-moz-transform: translate(-50%, -100%);
+	transform: translate(-50%, -100%);
+	transition: all 0.3s ease 0;
+}
+.event-listing-classic.show-teacher .entry-speakers .k2t-row  .name {
+	background: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+	-ms-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+	font-size: 16px;
+	opacity: 0;
+	padding: 0 10px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);
+	-moz-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	white-space: nowrap;
+	z-index: -1;
+}
+.event-listing-classic.show-teacher .entry-speakers .k2t-row .role {
+	display: none;
+}
+
+.event-listing-classic.show-excerpt .more-link {
+	margin-bottom: 25px;
+}
+.event-listing-classic.show-excerpt .entry-speakers .k2t-row .role { display: none }
+
+.event-listing-classic .event-classic-item .event-meta {
+	clear: left;
+}
+
+.event-classic-item .more-link {
+	float: left;
+	padding: 8px 22px;
+	font-size: 115%;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	background: #3f51b5;
+	font-weight: 300;
+	color: #fff;
+}
+.event-classic-item .more-link:hover {
+	background: #303f9f;
+}
+	
+	/* Event Masonry Style */
+.event-listing-masonry .masonry-item .inner {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	overflow: hidden;
+}
+.event-listing-masonry .masonry-item .read-more {
+	background: #3f51b5;
+}
+.event-listing-masonry .masonry-item .read-more:hover {
+	z-index: 999;
+	-webkit-box-shadow: 0 15px 30px rgba(0,0,0,.1); /* drop shadow */
+	-moz-box-shadow: 0 15px 30px rgba(0,0,0,.1); /* drop shadow */
+	-ms-box-shadow: 0 15px 30px rgba(0,0,0,.1); /* drop shadow */
+	box-shadow: 0 15px 30px rgba(0,0,0,.1); /* drop shadow */
+}
+.event-listing-masonry .masonry-item .read-more i:before{
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.event-listing-masonry .masonry-item .read-more:hover i:before {
+	/*-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	/*-ms-transform: rotate(180deg); /* IE 9 */
+	/*transform: rotate(180deg);
+	-moz-transform: rotate(180deg);*/
+}
+
+	/* Event masonry filter */
+.event-isotope-filter li.active{
+	color: #303f9f;
+}
+.event-isotope-filter li:after{
+	background: #3f51b5;
+}
+
+	/* Event carousel style */
+.event-listing-carousel {
+	margin: 0;
+	height: auto !important;
+}
+.event-listing-carousel .masonry-item {
+	padding: 0;
+}
+
+
+@media (min-width: 1200px) {
+	.k2t-title-bar ~ .k2t-content .event-entry-meta {
+		margin-top: -180px;
+	}
+	.single-post-k-event .k2t-title-bar .k2t-wrap > * {
+		padding-left: 26%;
+	}
+	.single-post-k-event .k2t-title-bar.no-sidebar .k2t-wrap > * {
+		padding-left: 35%;
+	}
+	.single-post-k-event .k2t-title-bar.right-sidebar .k2t-wrap > * {
+		padding-left: 26%;
+	}
+	.single-post-k-event .k2t-title-bar.left-sidebar .k2t-wrap > * {
+		padding-right: 26%;
+		padding-left: 0;
+	}
+}
+@media (min-width: 768px) {
+	.event-isotope-filter li:hover {
+		color: #303f9f;
+	}
+}
+
+@media (max-width: 767px) {
+	.single-post-k-event .event-entry-meta,
+	.single-post-k-event .entry-content {
+		width: 100%;
+		float: none;
+	}
+	.k2t-related-event .related-event {
+		width: 100%;
+		float: none;
+	}
+	#calendar-box {
+		padding: 0;
+		border: 0;
+	}
+	.cal-year-box [class*="span"] > div, .cal-month-box [class*="cal-cell"] > div {
+		margin: 2px;
+	}
+	.cal-year-box [class*="span"] > div, .cal-month-box [class*="cal-cell"] > div {
+		min-height: 70px;
+	}
+	.cal-cell > div .events-list {
+		left: 5px;
+		bottom: 5px;
+	}
+	.cal-cell > div .events-list .event-item {
+		width: 7px;
+		height: 7px;
+	}
+}
+@media (max-width: 480px) {
+	.cal-year-box [class*="span"] > div > .pull-left, .cal-month-box [class*="cal-cell"] > div > .pull-left {
+		margin: 5px;
+		font-size: 100%;
+	}
+	#calendar-box {
+		width: 110%;
+    	margin: 0 -5%;
+	}
+	.cal-cell > div .k2t-tooltip {
+		width: 170px;
+		white-space: inherit;
+		font-size: 85%;
+		line-height: 2;
+	}
+}

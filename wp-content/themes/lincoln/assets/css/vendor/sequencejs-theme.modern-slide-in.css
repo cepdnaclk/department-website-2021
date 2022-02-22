@@ -1,0 +1,169 @@
+/*
+Theme created for use with Sequence.js (http://www.sequencejs.com/)
+
+Theme:   Sliding Horizontal Parallax (Responsive)
+Version:   0.2.2 Beta
+Theme Author:   Ian Lunn @IanLunn
+Author URL:   http://www.ianlunn.co.uk/
+Theme URL:   http://www.sequencejs.com/themes/sliding-horizontal-parallax/
+
+This is a FREE theme and is dual licensed under the following: 
+http://www.opensource.org/licenses/mit-license.php | http://www.gnu.org/licenses/gpl.html
+
+Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise stated.
+Aside from these comments, you may modify and distribute this file as you please. Have fun!
+ */
+#sequence-slider {
+	height: 490px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	max-width: 1280px;
+	width: 100%;
+}
+#sequence-slider .next, #sequence-slider .prev {
+	color: white;
+	cursor: pointer;
+	display: none;
+	font-weight: bold;
+	padding: 10px 15px;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	height: 75px;
+	margin-top: -47.5px;
+}
+.pause {
+	bottom: 0;
+	cursor: pointer;
+	position: absolute;
+	z-index: 1000;
+}
+.paused {
+	opacity: 0.3;
+}
+#sequence-slider .prev {
+	left: 3%;
+}
+#sequence-slider .next {
+	right: 3%;
+}
+.prev img, .next img{
+	height: 100%;
+	width: auto;
+}
+#sequence-preloader{
+	background: #d9d9d9;
+}
+#nav {
+	bottom:0px;
+	display: none;
+	right: 0;
+	position: absolute;
+	z-index: 99;
+	width: 100%;
+	text-align: right;
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	transition-duration: .5s;
+}
+#nav li {
+	display: inline-block;
+	margin: 0 1.5px;
+	max-width: 100px;
+}
+#nav li img {
+	cursor: pointer;
+	opacity: 0.5;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	transition-duration: 1s;
+}
+#nav li img.active {
+	opacity: 1;
+}
+
+@media only screen and (min-width : 1224px) {
+	/*only display the hover effect on desktops/laptops*/
+	#nav li img:hover {
+		opacity: 1;
+	
+		-webkit-transition-duration: 1s;
+		-moz-transition-duration: 1s;
+		-o-transition-duration: 1s;
+		-ms-transition-duration: 1s;
+		transition-duration: 1s;
+	}
+}
+#sequence ul {
+	list-style: none;
+}
+#sequence li{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+#sequence li img.product-slider-image {
+	max-height: 100%;
+	max-width: 100%;
+}
+#sequence {
+	display: block;
+	height: calc(100% - 80px);
+	height: -webkit-calc(100% - 80px);
+	height: -moz-calc(100% - 80px);
+	margin: 0;
+	position: absolute;
+	max-width: 1280px;
+	width: 100%;
+	/*backface-visibility prevents graphical glitches when frames are animating*/
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+#sequence-slider .next, #sequence-slider .prev {
+	position: absolute;
+	opacity: 0.6;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	transition-duration: 1s;
+}
+#sequence-slider .next:hover, #sequence-slider .prev:hover {
+	opacity: 1;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	transition-duration: 1s;
+}
+.model {
+	bottom: 0%;
+	opacity: 0;
+	position: relative;
+	height: auto !important;
+}
+.animate-in .model {
+	opacity: 1;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	transition-duration: 1s;
+}
+.animate-out .model {
+	opacity: 0;
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	transition-duration: .5s;
+}
+

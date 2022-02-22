@@ -1,0 +1,96 @@
+/**
+ * Megamenu stylesheet for Lincoln.
+ *
+ * @package Lincoln
+ * @author  LunarTheme
+ * @link	http://www.lunartheme.com
+ */
+.k2t-header .k2t-menu li.k2t-megamenu {
+	position: static;
+}
+.k2t-header .k2t-menu li.k2t-megamenu > a .k2t-title-menu:after {
+	content: "\f2f9";
+	font-family: 'Material-Design-Iconic-Font';
+	font-size: 14px;
+	font-weight: 300;
+	margin-left: 5px;
+	line-height: 1px;
+}
+.k2t-header .k2t-menu .mega-container {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	left: 0;
+	right: 0;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius:    0 0 3px 3px;
+	-ms-border-radius:     0 0 3px 3px;
+	border-radius:         0 0 3px 3px;
+	-webkit-transition: all .4s ease-in-out 0s;
+	-moz-transition:    all .4s ease-in-out 0s;
+	transition:         all .4s ease-in-out 0s;
+}
+.k2t-header .k2t-menu .k2t-megamenu:hover .mega-container,
+.k2t-header .k2t-menu .k2t-megamenu:hover .mega-container ul {
+	opacity: 1;
+	visibility: visible;
+	z-index: 100;
+	margin-left: 0;
+}
+.k2t-header .k2t-menu .mega-container ul {
+	visibility: hidden;
+	opacity: 1;
+	position: static;
+	margin: 0;
+	border: 0;
+	overflow: hidden;
+}
+.k2t-header .k2t-menu .mega-container > ul {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	visibility: hidden;
+	padding: 0;
+}
+.k2t-header .k2t-menu .mega-container > ul > li {
+	max-width: 257px;
+	display: table-cell;
+	vertical-align: top;
+	border-top: 0;
+}
+.k2t-header .k2t-menu .mega-container > ul > li > a {
+	border: 0;
+	text-transform: uppercase;
+	padding: 15px 20px;
+}
+.k2t-header .k2t-menu .mega-container > ul > li:hover > a,
+.k2t-header .k2t-menu .mega-container > ul > li.current-menu-item > a,
+.k2t-header .k2t-menu .mega-container > ul > li.current-menu-ancestor > a {
+	background: none;
+}
+.k2t-header .k2t-menu .mega-container .k2t-megamenu-submenu > a {
+	font-weight: 400;
+}
+.k2t-header .k2t-menu .mega-container > ul > li > ul {
+	font-size: 100%;
+	box-shadow: none;
+	-ms-box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.k2t-header .k2t-menu .mega-container li.children > a:after,
+.k2t-header-top .k2t-menu .mega-container a:before {
+	display: none;
+}
+.k2t-header .k2t-menu .mega-container .sub-menu {
+	width: 100%;
+}
+.k2t-header .k2t-header-top .k2t-menu .mega-container {
+	background: #fff;
+	border-color: #ddd;
+}
+.k2t-header-top .k2t-menu .mega-container li ul li a:hover {
+	background: none;
+}
